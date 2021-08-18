@@ -50,4 +50,12 @@ Modelo de negocio
 Nuestro Lean Canvas está disponible en: 
 https://www.canva.com/design/DAEnea0VtBI/7EO5SI_9xDsIHvYWmGjpFA/view?utm_content=DAEnea0VtBI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
+Descripción de la aplicación
+
+Describir si la aplicación guarda información en una base de datos y si consume un servicio externo. Especificar qué información es necesario guardar en una base de datos.
+En la página de inicio iría la información general de la empresa: Quienes somos, qué servicio se ofrece, información de contacto y reserva de citas, todo esto correctamente distribuido con ayudas visuales. 
+FONTED: La reserva de citas está en una única página, lugar en donde el usuario, una vez de haberse informado sobre la empresa Hidraulicas y repuestos, podrá agendar una cita para la futura reparación de su vehículo, agregando nombre completo, número de cédula, correo electrónico, fecha y hora de la cita y lugar en donde el carro será reparado (el lugar se elige según las características del vehículo). Finalmente el usuario autoriza el manejo de información personal en términos y condiciones y se genera la reserva automáticamente.  
+	Para este proceso se usa HTML CSS y JavaScript 
+Para la cancelación de las citas tendrá que comunicarse con soporte, en términos y condiciones se le avisa al usuario qué hacer en caso de cancelación de citas. 
+BAKEND: Desde el otro lado de la aplicación un manager estará al pendiente de la reserva y cancelación de citas, su trabajo principal es asegurar que la información digital concuerde con lo análogo, ejemplo: Efectivamente el puesto de reserva para las 3pm está libre. 
 
