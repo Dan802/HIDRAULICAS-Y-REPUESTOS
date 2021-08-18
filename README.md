@@ -19,9 +19,11 @@ Mockup de la aplicación disponible en:
 https://www.canva.com/design/DAEmptLOhME/4FuZYRnFZMvU3CQcnpUT6g/view?utm_content=DAEmptLOhME&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 Justificacion
+
 La alta demanda por mec�nicos especializados en mantenimiento de sistemas hidr�ulicos en el departamento Antioque�o, obliga a muchas personas con residencia en las afueras de la ciudad a viajar por largas horas a Medell�n para ser atendidos por Hidraulicas y Repuestos H&R. Hidr�ulicas y Repuestos ofrece el servicio por orden de llegada, los clientes que residen fuera de la ciudad llegan despu�s de ser asignados los turnos.
 
 Estado del arte
+
 Si bien diferentes páginas web tienen la opción de agendar citas para revisiones periódicas, cotizaciones o cambio de repuestos, nuestro valor agregado será una interfaz lo más amigable posible con el usuario, en especial, los adultos mayores que en diferentes ocasiones se agobian con la tecnología. 
 Para esto, hemos decidido prescindir de la opción de loguearse del usuario haciendo más fácil su agendamiento de cita.
 
@@ -32,3 +34,7 @@ https://apps.incolmotos-yamaha.com.co/appAgendamiento/
 https://www.aktmotos.com/landing_pide_tu_cita 
 https://usados.autolarte.com.co/servicios/ 
 https://andar.com.co/agenda-tu-cita/
+
+Objetivo General
+
+Ofrecer mejor atención mediante la reserva de citas desde la web, con una interfaz simple e intuitiva para la reparación de sistema hidráulico automotriz  a clientes con residencia en el departamento de antioquia.
