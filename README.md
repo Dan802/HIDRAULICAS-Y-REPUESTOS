@@ -21,6 +21,7 @@ https://www.canva.com/design/DAEmptLOhME/4FuZYRnFZMvU3CQcnpUT6g/view?utm_content
 Justificacion
 La alta demanda por mec�nicos especializados en mantenimiento de sistemas hidr�ulicos en el departamento Antioque�o, obliga a muchas personas con residencia en las afueras de la ciudad a viajar por largas horas a Medell�n para ser atendidos por Hidraulicas y Repuestos H&R. Hidr�ulicas y Repuestos ofrece el servicio por orden de llegada, los clientes que residen fuera de la ciudad llegan despu�s de ser asignados los turnos.
 
+Estado del arte
 Si bien diferentes páginas web tienen la opción de agendar citas para revisiones periódicas, cotizaciones o cambio de repuestos, nuestro valor agregado será una interfaz lo más amigable posible con el usuario, en especial, los adultos mayores que en diferentes ocasiones se agobian con la tecnología. 
 Para esto, hemos decidido prescindir de la opción de loguearse del usuario haciendo más fácil su agendamiento de cita.
 
