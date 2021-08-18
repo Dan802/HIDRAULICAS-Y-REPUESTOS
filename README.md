@@ -18,4 +18,5 @@ Mockup de la aplicaciÃ³n disponible en:
 
 https://www.canva.com/design/DAEmptLOhME/4FuZYRnFZMvU3CQcnpUT6g/view?utm_content=DAEmptLOhME&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
-Ensayando colaboracion en git
+Justificación
+La alta demanda por mecánicos especializados en mantenimiento de sistemas hidráulicos en el departamento Antioqueño, obliga a muchas personas con residencia en las afueras de la ciudad a viajar por largas horas a Medellín para ser atendidos por Hidraulicas y Repuestos H&R. Hidráulicas y Repuestos ofrece el servicio por orden de llegada, los clientes que residen fuera de la ciudad llegan después de ser asignados los turnos.
