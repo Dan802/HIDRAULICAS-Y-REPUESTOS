@@ -38,3 +38,10 @@ https://andar.com.co/agenda-tu-cita/
 Objetivo General
 
 Ofrecer mejor atención mediante la reserva de citas desde la web, con una interfaz simple e intuitiva para la reparación de sistema hidráulico automotriz  a clientes con residencia en el departamento de antioquia.
+
+Objetivos específicos
+
+*   Evitar la pérdida de clientes por un tema organizacional.
+*   Permitir al usuario seleccionar Fecha, hora y lugar donde será atendido con ayudas visuales para mejor entendimiento durante el proceso de la reserva. 
+*   Usuarios de las afueras de la ciudad  de Medellín podrán agendar una cita.
+
