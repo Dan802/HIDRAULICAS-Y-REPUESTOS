@@ -45,3 +45,9 @@ Objetivos específicos
 *   Permitir al usuario seleccionar Fecha, hora y lugar donde será atendido con ayudas visuales para mejor entendimiento durante el proceso de la reserva. 
 *   Usuarios de las afueras de la ciudad  de Medellín podrán agendar una cita.
 
+Modelo de negocio
+
+Nuestro Lean Canvas está disponible en: 
+https://www.canva.com/design/DAEnea0VtBI/7EO5SI_9xDsIHvYWmGjpFA/view?utm_content=DAEnea0VtBI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+
+
