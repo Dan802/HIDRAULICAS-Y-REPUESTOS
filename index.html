@@ -20,27 +20,17 @@
     <!-- este es el menu deslizante -->
 
     <header>
-        <section class="hyr_barra_navegacion">
-
-            <figure class="hyr_logo">
-                <img width="150px" src="img/header.png" alt="img/logo.PNG">
-            </figure>
-
-            <div class="hyr_barra_items">
-                <nav>
-                    <!-- En esta zona de la pagina va  la navegacion -->
-                    <button class="nav-menu" onclick="Desliza()"><i class="fas fa-bars"></i></button>
-                    <a href="#" class="nav-enlace desaparace"> INICIO</a>
-                    <a href="#" class="nav-enlace desaparace">SOBRE NOSOTROS</a>
-                    <a href="#" class="nav-enlace desaparace">NUESTROS SERVICIOS</a>
-                    <a href="#" class="nav-enlace desaparace">PIDE TU CITA</a>
-                    <a href="#" class="nav-enlace desaparace">CONTACTO</a>
-                </nav>
-            </div>
-        </section>
-
+        <nav class="hyr_barra_navegacion">
+            <!-- En esta zona de la pagina va  la navegacion -->
+            <button class="nav-menu" onclick="Desliza()"><i class="fas fa-bars"></i></button>
+            <a href="#" class="nav-enlace desaparace"> INICIO</a>
+            <a href="#" class="nav-enlace desaparace">SOBRE NOSOTROS</a>
+            <a href="#" class="nav-enlace desaparace">NUESTROS SERVICIOS</a>
+            <a href="#" class="nav-enlace desaparace">PIDE TU CITA</a>
+            <a href="#" class="nav-enlace desaparace">CONTACTO</a>
+        </nav>
         <!-- Esta es la barra deslizante para responsive -->
-        <div id="menu-container">
+        <div id="hyr_barra_responsive">
             <div id="slide-bar" class="active">
                 <li href="#" class="nav-slide "> INICIO</li>
                 <li href="#" class="nav-slide ">QUIENES SOMOS</li>
@@ -53,69 +43,33 @@
     </header>
 
     <main class="hyr_main">
-
         <section class="hyr_quines_somos">
-
-            <div class="hyr_titulo">SABORES</div>
             <div class="hyr_quines_somos_info">
-                <p class="hyr_quines_somos_p">
-                    Mira las opciones de sabores disponibles, elige tu favorito y al estilo que tu quieras
+                <div class="hyr_titulo">QUINES SOMOS</div>
+                <p id="hyr_quienes_somos_p">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nostrum rerum vero repudiandae
+                    eligendi ea autem tempora cupiditate iure recusandae culpa voluptatibus reiciendis suscipit sint,
+                    dignissimos libero delectus debitis dolores. Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Voluptatibus molestias eum excepturi debitis corporis aliquam modi, itaque esse natus ea vero,
+                    deserunt alias consequatur sed, cum fuga voluptatem ex odio.
                 </p>
             </div>
+        </section>
 
-            <section class="column-sabores-container">
-
-                <div id="" class="column-sabores flecha">
+        <section class="hyr_nuestros_servicios_contenedor">
+            <section class="hyr_nuestros_servicios">
+                <div class="hyr_titulo">NUESTROS SERVICIOS</div>
+                <div class="hyr_nuestros_servicios_items">
                     <figure>
-                        <img width="70px" src="img/Flecha1.png" alt="img/logo.PNG">
+                        <img src="" alt="">
+                        <p>Reparacion</p>
+                    </figure>
+
+                    <figure>
+                        <img src="" alt="">
+                        <p>Productos</p>
                     </figure>
                 </div>
-            </section>
-
-        </section>
-
-        <section class="section-estilos">
-
-            <div id="title-naranja" class="section-titulo">ESTILOS</div>
-
-            <section class="section-1">
-                <div id="imagen-1" class="imagen_"></div>
-                <div class="fila-1">
-                    <div id="info-1" class="info_"></div>
-                    <div id="subinfo" clase="subinfo"><button class="boton_">PIDE YA</button></div>
-                </div>
-            </section>
-            <div class="separador"></div>
-
-            <section class="section-1">
-                <div class="fila-1">
-                    <div id="info-2" class="info_"></div>
-                    <div id="subinfo" clase="subinfo"><button class="boton_">PIDE YA</button></div>
-                </div>
-                <div id="imagen-2" class="imagen_"></div>
-            </section>
-
-            <div class="separador"></div>
-            <section class="section-1">
-                <div id="imagen-3" class="imagen_"></div>
-                <div class="fila-1">
-                    <div id="info-3" class="info_"></div>
-                    <div id="subinfo" clase="subinfo"><button class="boton_">PIDE YA</button></div>
-                </div>
-            </section>
-        </section>
-        <div id="title-verde" class="section-titulo">NOSOTROS</div>
-        <section class="section-nosotros">
-
-            <section class="section-2">
-
-                <div class="fila-2">
-                    <div id="info-4" class="info_"></div>
-                    <div id="subinfo-losdemas" clase="subinfo"><button id="bt-conocenos" class="boton_">CONOCE A LOS
-                            DEMÁS</button>
-                    </div>
-                </div>
-                <div id="imagen-4" class="imagen_"></div>
             </section>
         </section>
 
