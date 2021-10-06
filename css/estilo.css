@@ -53,19 +53,19 @@ header{
     padding: 15px 10px ;
     border-bottom: 1px solid rgba(95, 95, 95, 0.548);
 }
-.div-menu{
+.hyr_barra_navegacion{
     background-color: rgba(26, 26, 26, 0.753);
     padding: 0px;
     display: flex;
     justify-content: center;
 }
-.div-logo{
+.hyr_logo{
     width: 40%;
     display: flex;
     justify-content: center;
     padding: 0;
 }
-.div-navegador{
+.hyr_barra_items{
     width: 100%;
 }
 nav{
@@ -109,14 +109,14 @@ nav{
 .nav-enlace:hover{
     background-color: rgba(0, 0, 0, 0.548);
 }
-.main-container{
+.hyr_main{
     background-color: rgb(255, 255, 255);
     width: 100%;
     display: inline-block;
     justify-content: center;
     
 }
-.columna{
+.hyr_quines_somos_info{
     background: var(--color1);
     color: rgb(255, 255, 255);
     width: 50%; 
@@ -124,7 +124,7 @@ nav{
     display: inline-block;
     justify-content: center;
 }
-#info{
+.hyr_quines_somos_p{
     width: 100%;
     display: flex;
 }
@@ -168,7 +168,7 @@ p{
     display: flex;
     justify-content: center;
 }
-.section-titulo{
+.hyr_titulo{
     text-align: center;
     height: 50px;
     width: 100%;

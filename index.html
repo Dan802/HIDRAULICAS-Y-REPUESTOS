@@ -20,29 +20,26 @@
     <!-- este es el menu deslizante -->
 
     <header>
-        <div class="div-menu">
+        <section class="hyr_barra_navegacion">
 
-            <div class="div-logo">
-                <figure>
-                    <img width="150px" src="img/header.png" alt="img/logo.PNG">
-                </figure>
-            </div>
+            <figure class="hyr_logo">
+                <img width="150px" src="img/header.png" alt="img/logo.PNG">
+            </figure>
 
-
-            <div class="div-navegador">
+            <div class="hyr_barra_items">
                 <nav>
                     <!-- En esta zona de la pagina va  la navegacion -->
                     <button class="nav-menu" onclick="Desliza()"><i class="fas fa-bars"></i></button>
-                    <a href="#" class="nav-enlace desaparace"> Inicio</a>
-                    <a href="#" class="nav-enlace desaparace">Sabores</a>
-                    <a href="#" class="nav-enlace desaparace">Estilos</a>
-                    <a href="#" class="nav-enlace desaparace">Nosotros</a>
-                    <a href="#" class="nav-enlace desaparace">Contactanos</a>
-                    <div class="compra-content nav-enlace desaparace"><button class="compra"
-                            onclick="despliega()">Compra Ahora</button></div>
+                    <a href="#" class="nav-enlace desaparace"> INICIO</a>
+                    <a href="#" class="nav-enlace desaparace">SOBRE NOSOTROS</a>
+                    <a href="#" class="nav-enlace desaparace">NUESTROS SERVICIOS</a>
+                    <a href="#" class="nav-enlace desaparace">PIDE TU CITA</a>
+                    <a href="#" class="nav-enlace desaparace">CONTACTO</a>
                 </nav>
             </div>
-        </div>
+        </section>
+
+        <!-- Esta es la barra deslizante para responsive -->
         <div id="menu-container">
             <div id="slide-bar" class="active">
                 <li href="#" class="nav-slide "> INICIO</li>
@@ -55,12 +52,13 @@
 
     </header>
 
-    <main class="main-container">
+    <main class="hyr_main">
 
-        <section class="section-sabores">
-            <div id="title-rosa" class="section-titulo">SABORES</div>
-            <div id="info" class="columna">
-                <p class="info-sabores">
+        <section class="hyr_quines_somos">
+
+            <div class="hyr_titulo">SABORES</div>
+            <div class="hyr_quines_somos_info">
+                <p class="hyr_quines_somos_p">
                     Mira las opciones de sabores disponibles, elige tu favorito y al estilo que tu quieras
                 </p>
             </div>
@@ -72,35 +70,6 @@
                         <img width="70px" src="img/Flecha1.png" alt="img/logo.PNG">
                     </figure>
                 </div>
-
-                <div id="fresa" class="column-sabores">
-                    <figure>
-                        <img width="300px" src="img/Fresa.png" alt="img/logo.PNG">
-                    </figure>
-                </div>
-
-                <div id="cafe" class="column-sabores">
-                    <figure>
-                        <img width="300px" src="img/cafe.png" alt="img/logo.PNG">
-                    </figure>
-                </div>
-
-                <div id="vainilla" class="column-sabores">
-                    <figure>
-                        <img width="300px" src="img/Fresa.png" alt="img/logo.PNG">
-                    </figure>
-                </div>
-                <div id="chicle" class="column-sabores">
-                    <figure>
-                        <img width="300px" src="img/cafe.png" alt="img/logo.PNG">
-                    </figure>
-                </div>
-                <div id="" class="column-sabores flecha">
-                    <figure>
-                        <img width="70px" src="img/Flecha2.png" alt="img/logo.PNG">
-                    </figure>
-                </div>
-
             </section>
 
         </section>
