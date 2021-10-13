@@ -229,37 +229,7 @@ footer{
         width: 100%;
         height: 50%;
     }
-    #info-1{
-        background-size: 90%;
-        height: 80%;
-    }
-    #info-2{
-        background-size: 90%;
-        height: 80%;
-    }
-    #info-3{
-        background-size: 90%;
-        height: 80%;
-    }
-    #subinfo{
-        width: 100%;
-        height: 10%;
-    }
-    #imagen-1{
-        width: 100%;
-        height:50%;
-        background-size: 80%;
-    }
-    #imagen-2{
-        width: 100%;
-        height:50%;
-        background-size: 80%;
-    }
-    #imagen-3{
-        width: 100%;
-        height:50%;
-        background-size: 80%;
-    }
+    
 }
 @media(max-width:900px){
     #chicle{
@@ -276,9 +246,6 @@ footer{
     }
     .nav-menu{
         display:inline-block;
-    }
-    .fas{
-        font-size: 50px;
     }
     .desaparace{
         display: none;
