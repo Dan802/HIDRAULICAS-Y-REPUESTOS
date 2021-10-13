@@ -24,7 +24,7 @@
 }
 body{
     height: 700px;
-    background-color: rgba(56, 21, 38, 0.356);
+    /* background-color: rgba(56, 21, 38, 0.356); */
 }
 .hyr_barra_navegacion{
     background-color: rgb(225, 125, 32);
@@ -52,24 +52,22 @@ body{
 	padding: 0;
     width: 100%;
     height: 100%;
-    color: white;  
+    color: white;
     display: none;
     text-align: end;
-    background-color: aqua;
 }
 main{
     width: 100%;
     height: 100%;
     /* background-color: lightcoral; */
     display: flex;
-
-    justify-content: end;
+    justify-content: center;
 }
 .hyr_contenedor_padre{
     width: 50%;
     height: 80%;
     padding: 60px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 header{
     width: 100%;
@@ -96,19 +94,21 @@ header{
     padding-bottom: 15px;
 }
 .hyr_contacto_info_contenedor{
-    width: 100%;
+    width: 80%;
     height: 25%;
+    margin-left: 5%;
     /* background-color: rgb(91, 175, 7); */
 }
 .hyr_redes_contenedor{
     width: 100%;
     height: 50%;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 .hyr_redes_imagen, .hyr_redes_imagen--img{
-    height: 100%;
+    height: 107%;
 }
 .hyr_redes{
     display: block;
@@ -134,7 +134,7 @@ header{
 section{
     width: 100%;
     height: 30%;
-    background-color: rgb(87, 131, 43);
+    /* background-color: rgb(87, 131, 43); */
 }
 @media(max-width:700px){
     nav{
