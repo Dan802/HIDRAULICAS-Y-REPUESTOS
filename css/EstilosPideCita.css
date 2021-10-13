@@ -23,6 +23,7 @@
     font-size: 24px;
 
 }  
+
 .hyr_header{
     width: 100%;
     height: 50px;
@@ -84,9 +85,10 @@
 .hyr_main{
     background-color: rgba(26, 57, 231, 0.575);
     width: 100%;
-    height: 900px;
+    height: 800px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .hyr_main_header{
@@ -125,6 +127,99 @@
     height: 90%;
     margin: 10px;
 }
+#section-1{
+
+}
+
+.month {
+    width: 100%;
+    height: 100px;
+    background-color: #167e56;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+  
+.month i {
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+.month h1 {
+    font-size: 24px;    
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+  
+.month p {
+    font-size: 20px;
+}
+  
+.weekdays {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+  
+.weekdays div {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+  
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+  
+.days div {
+    font-size: 15px;
+    width: calc(430px / 7);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+}
+  
+.days div:hover:not(.today) {
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+}
+.next-date{
+    color: rgba(0, 0, 0, 0.555);
+}
+.prev-date{
+    color: rgba(0, 0, 0, 0.555);
+}
+
+#seccion_2{
+    width: 15%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: brown;
+}
+
+.hyr_horas_calendario:hover{
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+}
+  
 @media(max-width:320px){
     .section-sabores{
         height: 400px;
