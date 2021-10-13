@@ -24,7 +24,7 @@
 }
 header{
     width: 100%;
-    height: 600px;
+    height: 400px;
     background: url(../img/header.png);
     background-position: center;
     background-attachment: contain;
@@ -94,40 +94,44 @@ header{
 }
 .hyr_main{
     width: 100%;
-    height: 900px;
+    height: 1000px;
     display: inline-block;
     justify-content: center;
+    background-color: rgb(255, 255, 255);
 }
 .hyr_quines_somos{
     width: 100%;
-    height: 30%;
+    height: 25%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .hyr_quines_somos_info{
     color: rgb(5, 5, 5);
-    width: 70%;
+    width: 80%;
+    height: 100%;
     display: inline-block;
     justify-content: center;
     text-align: center;
-    padding: 20px;
     border-bottom: 2px solid rgb(70, 70, 70);
     border-bottom-left-radius: 2px;
 }
 .hyr_titulo{
     text-align: center;
     width: 100%;
-    height: 10%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: var(--fuente-gruesa);
     font-size: 30px;
 }
 .hyr_nuestros_servicios_contenedor{
     width: 100%;
-    height: 70%;
+    height: 60%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
