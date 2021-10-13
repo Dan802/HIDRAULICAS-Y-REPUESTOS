@@ -21,8 +21,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: var(--fuente-delgada);
     font-size: 24px;
-
-}  
+}
 header{
     width: 100%;
     height: 600px;
@@ -51,7 +50,6 @@ header{
     list-style-type: none;
     text-align: center;
     padding: 15px 10px ;
-    
 }
 .hyr_barra_navegacion{
     background-color: rgba(197, 84, 84, 0.753);
@@ -76,7 +74,7 @@ header{
 	padding: 0;
     width: 100%;
     height: 100%;
-    color: white;  
+    color: white;
     display: none;
     text-align: end;
     background-color: aqua;
@@ -90,7 +88,6 @@ header{
     height: 900px;
     display: inline-block;
     justify-content: center;
-    
 }
 .hyr_quines_somos{
     width: 100%;
@@ -105,7 +102,7 @@ header{
     width: 70%;
     display: inline-block;
     justify-content: center;
-    text-align: center; 
+    text-align: center;
     background-color: darkseagreen;
     padding: 20px;
     border-bottom: 1px solid rgba(95, 95, 95, 0.548);
@@ -149,6 +146,10 @@ header{
     display: flex;
     align-items: flex-end;
 }
+.hyr_nuestros_servicios_producto--Imagenes{
+    width: 200px;
+    height: 200px;
+}
 .hyr_nuestros_servicios_boton{
     width: 100%;
     height: 120px;
@@ -172,7 +173,7 @@ footer{
 @media(max-width:320px){
     .section-sabores{
         height: 400px;
-    }   
+    }
     .section-1{
         display:inline-block;
         justify-content: center;
@@ -186,7 +187,6 @@ footer{
     .info-login{
         display: none;
     }
-    
 }
 @media(max-width:700px){
     nav{
@@ -198,7 +198,7 @@ footer{
     }
     .desaparace{
         display: none;
-    } 
+    }
     .div-menu{
         padding: 5px;
         display: block;
@@ -212,7 +212,7 @@ footer{
     }
     .div-login{
         width: 100%;
-    }  
+    }
     .section-1{
         display:inline-block;
         justify-content: center;
@@ -256,7 +256,7 @@ footer{
 }
 @media(max-width:900px){
     #chicle{
-        width: 20%; 
+        width: 20%;
         height: 100%;
         display: none;
     }
@@ -275,7 +275,7 @@ footer{
     }
     .desaparace{
         display: none;
-    } 
+    }
     .div-menu{
         display: flex;
         justify-content: center;
@@ -291,9 +291,9 @@ footer{
     }
     .div-login{
         width: 100%;
-    } 
+    }
     #cafe{
-        width: 20%; 
+        width: 20%;
         height: 100%;
         display: none;
     }
@@ -310,14 +310,13 @@ footer{
 @media(max-width:1350px){
     /*En esta oarte de codigo se acomodara la barra deslizadora*/
     #fresa{
-        width: 20%; 
+        width: 20%;
         height: 100%;
         display: none;
     }
     .column-sabores-container{
         justify-content: space-around;
     }
-    
     #imagen-1{
         background-size: 85%;
     }
