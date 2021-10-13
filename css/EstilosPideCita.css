@@ -21,18 +21,15 @@
     font-family: 'Oswald', sans-serif;
     font-weight: var(--fuente-delgada);
     font-size: 24px;
-}
-header{
+
+}  
+
+.hyr_header{
     width: 100%;
-    height: 600px;
-    background: url(../img/header.png);
-    background-position: center;
-    background-attachment: contain;
-    background-size: cover;
+    height: 50px;
+    background-color: rgb(165, 247, 247);
 }
 #hyr_barra_responsive{
-    background-color: rgb(233, 233, 233);
-    border-radius: 24px;
     width: 100%;
     height: 100%;
     display: inline-flex;
@@ -52,9 +49,10 @@ header{
     list-style-type: none;
     text-align: center;
     padding: 15px 10px ;
+    
 }
 .hyr_barra_navegacion{
-    background-color: rgb(225, 125, 32);
+    background-color: rgba(197, 84, 84, 0.753);
     padding: 0px;
     display: flex;
     justify-content: center;
@@ -76,117 +74,191 @@ header{
 	padding: 0;
     width: 100%;
     height: 100%;
-    color: white;
+    color: white;  
     display: none;
     text-align: end;
-    background-color: aqua;
+    background-color: rgb(6, 58, 58);
 }
 .nav-enlace:hover{
     background-color: rgba(0, 0, 0, 0.548);
 }
 .hyr_main{
+    background-color: rgba(26, 57, 231, 0.575);
     width: 100%;
-    height: 900px;
-    display: inline-block;
-    justify-content: center;
-}
-.hyr_quines_somos{
-    width: 100%;
-    height: 30%;
+    height: 800px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
 }
-.hyr_quines_somos_info{
-    color: rgb(5, 5, 5);
-    width: 70%;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    border-bottom: 2px solid rgb(70, 70, 70);
-    border-bottom-left-radius: 2px;
+.hyr_main_header{
+    background-color: blue;
+    width: 90%;
+    height: 200px;
+}
+#hyr_main_entradas{
+    width: 90%;
+    background-color: chartreuse;
+
+}
+.hyr_main_formulario{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
 }
 .hyr_titulo{
-    text-align: center;
     width: 100%;
-    height: 10%;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: var(--fuente-gruesa);
     font-size: 30px;
+    background-color: cornflowerblue;
 }
-.hyr_nuestros_servicios_contenedor{
-    width: 100%;
-    height: 70%;
+.hyr_main_horario_contenedor{
+    background-color: burlywood;
+    width: 90%;
+    height: 500px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-.hyr_nuestros_servicios{
-    width: 80%;
-    height: 100%;
-    display: block;
-    justify-content: center;
-    padding: 10px;
+.hyr_main_horario{
+    background-color: chocolate;
+    width: 33%;
+    height: 90%;
+    margin: 10px;
 }
-.hyr_nuestros_servicios_items{
+#section-1{
+
+}
+
+.month {
     width: 100%;
-    height: 80%;
+    height: 100px;
+    background-color: #167e56;
     display: flex;
     justify-content: space-around;
-}
-.hyr_nuestros_servicios_producto{
-    width: 24%;
+    align-items: center;
     text-align: center;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
 }
-.hyr_nuestros_servicios_producto--Imagenes{
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    margin-top: 10%;
-    width: 100%;
+  
+.month i {
+    font-size: 24px;
+    cursor: pointer;
 }
-.hyr_nuestros_servicios_boton{
+  
+.month h1 {
+    font-size: 24px;    
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+  
+.month p {
+    font-size: 20px;
+}
+  
+.weekdays {
     width: 100%;
-    height: 120px;
-    background-color: rgb(10, 10, 10);
-    color: white;
+    height: 60px;
     display: flex;
     align-items: center;
+}
+  
+.weekdays div {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem / 7);
+    display: flex;
     justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+  
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+  
+.days div {
+    font-size: 15px;
+    width: calc(430px / 7);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+}
+  
+.days div:hover:not(.today) {
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+}
+.next-date{
+    color: rgba(0, 0, 0, 0.555);
+}
+.prev-date{
+    color: rgba(0, 0, 0, 0.555);
+}
+
+#seccion_2{
+    width: 15%;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: brown;
+}
+
+.hyr_horas_calendario:hover{
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+}
+#seccion_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(74, 80, 25);
+    gap: 10px;
+    padding: 10px;
+}
+.hyr_lugar_calendario{
+    background-color: rgb(189, 120, 30);
+}
+
+.hyr_lugar_calendario:hover{
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
 }
 footer{
-    height: 300px;
     width: 100%;
-    background-color: rgb(225, 125, 32);
+    height: 200px;
     display: flex;
-    justify-content: center;
-}
-.hyr_footer{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.hyr_footer_btn{
-    margin-top: 20px;
-    width: 30%;
-    height: 29%;
-    border-radius: 24px;
-    background-color: rgb(43, 43, 43);
-    color: white;
+.hyr_reserva{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: coral;
+}
+.hyr_reserva_boton{
+    margin: 10px;
 }
 @media(max-width:320px){
     .section-sabores{
         height: 400px;
-    }
+    }   
     .section-1{
         display:inline-block;
         justify-content: center;
@@ -200,6 +272,7 @@ footer{
     .info-login{
         display: none;
     }
+    
 }
 @media(max-width:700px){
     nav{
@@ -211,7 +284,7 @@ footer{
     }
     .desaparace{
         display: none;
-    }
+    } 
     .div-menu{
         padding: 5px;
         display: block;
@@ -225,24 +298,11 @@ footer{
     }
     .div-login{
         width: 100%;
-<<<<<<< HEAD
     }
-    .section-1{
-        display:inline-block;
-        justify-content: center;
-        height: 900px;
-    }
-    .fila-1{
-        width: 100%;
-        height: 50%;
-    }
-=======
-    }
->>>>>>> Pagina_3
 }
 @media(max-width:900px){
     #chicle{
-        width: 20%;
+        width: 20%; 
         height: 100%;
         display: none;
     }
@@ -258,7 +318,7 @@ footer{
     }
     .desaparace{
         display: none;
-    }
+    } 
     .div-menu{
         display: flex;
         justify-content: center;
@@ -272,37 +332,18 @@ footer{
         display: flex;
         justify-content: flex-end;
     }
-<<<<<<< HEAD
-    .div-login{
-        width: 100%;
-    }
-    #cafe{
-        width: 20%;
-        height: 100%;
-        display: none;
-    }
-    .column-sabores-container{
-        justify-content: space-around;
-    }
-    #imagen-1{
-        background-size: 90%;
-    }
-    #imagen-2{
-        background-size: 90%;
-    }
-=======
->>>>>>> Pagina_3
 }
 @media(max-width:1350px){
     /*En esta oarte de codigo se acomodara la barra deslizadora*/
     #fresa{
-        width: 20%;
+        width: 20%; 
         height: 100%;
         display: none;
     }
     .column-sabores-container{
         justify-content: space-around;
     }
+    
     #imagen-1{
         background-size: 85%;
     }
@@ -310,3 +351,4 @@ footer{
         background-size: 90%;
     }
 }
+
