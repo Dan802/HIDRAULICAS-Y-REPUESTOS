@@ -117,7 +117,7 @@
 .hyr_main_horario_contenedor{
     background-color: burlywood;
     width: 90%;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
 }
@@ -219,7 +219,42 @@
     border: 0.2rem solid #777;
     cursor: pointer;
 }
-  
+#seccion_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(74, 80, 25);
+    gap: 10px;
+    padding: 10px;
+}
+.hyr_lugar_calendario{
+    background-color: rgb(189, 120, 30);
+}
+
+.hyr_lugar_calendario:hover{
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hyr_reserva{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: coral;
+}
+.hyr_reserva_boton{
+    margin: 10px;
+}
 @media(max-width:320px){
     .section-sabores{
         height: 400px;
