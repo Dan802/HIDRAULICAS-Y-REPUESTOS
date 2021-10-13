@@ -31,6 +31,8 @@ header{
     background-size: cover;
 }
 #hyr_barra_responsive{
+    background-color: rgb(233, 233, 233);
+    border-radius: 24px;
     width: 100%;
     height: 100%;
     display: inline-flex;
@@ -83,7 +85,6 @@ header{
     background-color: rgba(0, 0, 0, 0.548);
 }
 .hyr_main{
-    /* background-color: rgba(26, 57, 231, 0.575); */
     width: 100%;
     height: 900px;
     display: inline-block;
@@ -95,7 +96,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgba(255, 140, 0, 0.295); */
 }
 .hyr_quines_somos_info{
     color: rgb(5, 5, 5);
@@ -103,7 +103,6 @@ header{
     display: inline-block;
     justify-content: center;
     text-align: center;
-    /* background-color: darkseagreen; */
     padding: 20px;
     border-bottom: 2px solid rgb(70, 70, 70);
     border-bottom-left-radius: 2px;
@@ -116,7 +115,6 @@ header{
     padding-bottom: 5px;
     font-weight: var(--fuente-gruesa);
     font-size: 30px;
-    /* background-color: cornflowerblue; */
 }
 .hyr_nuestros_servicios_contenedor{
     width: 100%;
@@ -124,27 +122,22 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgba(255, 140, 0, 0.815); */
 }
 .hyr_nuestros_servicios{
     width: 80%;
-    /* height: 80%; */
     height: 100%;
     display: block;
     justify-content: center;
     padding: 10px;
-    /* background-color: rgba(255, 72, 0, 0.815); */
 }
 .hyr_nuestros_servicios_items{
     width: 100%;
     height: 80%;
     display: flex;
     justify-content: space-around;
-    /* background-color: rgba(0, 255, 42, 0.815); */
 }
 .hyr_nuestros_servicios_producto{
     width: 24%;
-    /* background-color: rgb(10, 10, 10); */
     text-align: center;
     display: flex;
     align-items: flex-end;
@@ -168,14 +161,27 @@ header{
 footer{
     height: 300px;
     width: 100%;
-    background-color: firebrick;
+    background-color: rgb(225, 125, 32);
     display: flex;
     justify-content: center;
 }
 .hyr_footer{
     height: 100%;
     width: 50%;
-    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+.hyr_footer_btn{
+    margin-top: 20px;
+    width: 30%;
+    height: 29%;
+    border-radius: 24px;
+    background-color: rgb(43, 43, 43);
+    color: white;
 }
 @media(max-width:320px){
     .section-sabores{
@@ -229,7 +235,6 @@ footer{
         width: 100%;
         height: 50%;
     }
-    
 }
 @media(max-width:900px){
     #chicle{
@@ -298,4 +303,3 @@ footer{
         background-size: 90%;
     }
 }
-
