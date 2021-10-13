@@ -23,13 +23,10 @@
     font-size: 24px;
 
 }  
-header{
+.hyr_header{
     width: 100%;
-    height: 600px;
-    background: url(../img/header.png);
-    background-position: center;
-    background-attachment: contain;
-    background-size: cover;
+    height: 50px;
+    background-color: rgb(165, 247, 247);
 }
 #hyr_barra_responsive{
     width: 100%;
@@ -79,7 +76,7 @@ header{
     color: white;  
     display: none;
     text-align: end;
-    background-color: aqua;
+    background-color: rgb(6, 58, 58);
 }
 .nav-enlace:hover{
     background-color: rgba(0, 0, 0, 0.548);
@@ -88,30 +85,26 @@ header{
     background-color: rgba(26, 57, 231, 0.575);
     width: 100%;
     height: 900px;
-    display: inline-block;
-    justify-content: center;
-    
-}
-.hyr_quines_somos{
-    width: 100%;
-    height: 30%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 140, 0, 0.295);
 }
-.hyr_quines_somos_info{
-    color: rgb(5, 5, 5);
-    width: 70%;
-    display: inline-block;
-    justify-content: center;
-    text-align: center; 
-    background-color: darkseagreen;
-    padding: 20px;
-    border-bottom: 1px solid rgba(95, 95, 95, 0.548);
+.hyr_main_header{
+    background-color: blue;
+    width: 90%;
+    height: 200px;
+}
+#hyr_main_entradas{
+    width: 90%;
+    background-color: chartreuse;
+
+}
+.hyr_main_formulario{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
 }
 .hyr_titulo{
-    text-align: center;
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -119,55 +112,18 @@ header{
     font-size: 30px;
     background-color: cornflowerblue;
 }
-.hyr_nuestros_servicios_contenedor{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 140, 0, 0.815);
-}
-.hyr_nuestros_servicios{
-    width: 80%;
-    height: 80%;
-    display: block;
-    justify-content: center;
-    padding: 10px;
-    background-color: rgba(255, 72, 0, 0.815);
-}
-.hyr_nuestros_servicios_items{
-    width: 80%;
-    height: 89%;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(0, 255, 42, 0.815);
-}
-.hyr_nuestros_servicios_producto{
-    width: 40%;
-    background-color: darkslateblue;
-    text-align: center;
-    display: flex;
-    align-items: flex-end;
-}
-.hyr_nuestros_servicios_boton{
-    width: 100%;
-    height: 120px;
-    background-color: deeppink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-footer{
-    height: 300px;
-    width: 100%;
-    background-color: firebrick;
+.hyr_main_horario_contenedor{
+    background-color: burlywood;
+    width: 90%;
+    height: 400px;
     display: flex;
     justify-content: center;
 }
-.hyr_footer{
-    height: 100%;
-    width: 50%;
-    background-color: gold;
+.hyr_main_horario{
+    background-color: chocolate;
+    width: 33%;
+    height: 90%;
+    margin: 10px;
 }
 @media(max-width:320px){
     .section-sabores{
