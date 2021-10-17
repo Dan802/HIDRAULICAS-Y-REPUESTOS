@@ -3,10 +3,10 @@
   --color1: #ff6058b9;
   --color1_: #ff6058;
   --color2: #fa981788;
-  --color2_: #FA9917;
+  --colorMarca1: rgb(255, 130, 0);
   --color3_: #FF3366;
   --color4: #2AC940;
-  --color4_: #2ac93fa1;
+  --gris: rgba(128, 128, 128, 0.329);;
   --fondo: #f2f2f2;
   --titulos: 33px;
   --margenes: 60px;
@@ -16,18 +16,20 @@
   --fuente-media: 500;
   --fuente-gruesa: 600;
 }
+@font-face {
+    font-family: luis;
+    src: url(fonts/Louis\ George\ Cafe.ttf);
+}
 *{
     margin: 0%;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-weight: var(--fuente-delgada);
     font-size: 24px;
-
 }  
 
 .hyr_header{
     width: 100%;
     height: 50px;
-    background-color: rgb(165, 247, 247);
 }
 #hyr_barra_responsive{
     width: 100%;
@@ -52,7 +54,7 @@
     
 }
 .hyr_barra_navegacion{
-    background-color: rgba(197, 84, 84, 0.753);
+    background-color: var(--colorMarca1);
     padding: 0px;
     display: flex;
     justify-content: center;
@@ -65,7 +67,7 @@
     color: aliceblue;
     text-decoration: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
 }
 .nav-menu{
     background: none;
@@ -83,7 +85,6 @@
     background-color: rgba(0, 0, 0, 0.548);
 }
 .hyr_main{
-    background-color: rgba(26, 57, 231, 0.575);
     width: 100%;
     height: 800px;
     display: flex;
@@ -92,19 +93,31 @@
     align-items: center;
 }
 .hyr_main_header{
-    background-color: blue;
     width: 90%;
-    height: 200px;
-}
-#hyr_main_entradas{
-    width: 90%;
-    background-color: chartreuse;
-
-}
-.hyr_main_formulario{
-    background-color: blueviolet;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+.hyr_main_header p{
+   font-family: luis;
+}
+.hyr_main_formulario{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.hyr_main_formulario div label{
+    font-family: luis;
+    font-weight: 500;
+    height: 24px;
+}
+.hyr_main_formulario div input{
+    border-radius: 10px;
+    border-style: none;
+    height: 24px;
+    background-color: var(--gris)
 }
 .hyr_titulo{
     width: 100%;
@@ -112,29 +125,24 @@
     padding-bottom: 5px;
     font-weight: var(--fuente-gruesa);
     font-size: 30px;
-    background-color: cornflowerblue;
 }
 .hyr_main_horario_contenedor{
-    background-color: burlywood;
     width: 90%;
-    height: 500px;
+    height: 900px;
     display: flex;
     justify-content: center;
 }
 .hyr_main_horario{
-    background-color: chocolate;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     width: 33%;
     height: 90%;
     margin: 10px;
 }
-#section-1{
-
-}
-
 .month {
     width: 100%;
     height: 100px;
-    background-color: #167e56;
+    background-color:var(--colorMarca1);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -195,8 +203,8 @@
 }
   
 .days div:hover:not(.today) {
-    background-color: #262626;
-    border: 0.2rem solid #777;
+    background-color: var(--gris);
+    border: 2px solid rgba(119, 119, 119, 0.521);
     cursor: pointer;
 }
 .next-date{
@@ -207,33 +215,35 @@
 }
 
 #seccion_2{
+    padding: 10px;
     width: 15%;
     display: grid;
+    gap: 10px;
     grid-template-columns: 1fr;
     text-align: center;
-    background-color: brown;
+    background-color: var(--gris);
 }
 
 .hyr_horas_calendario:hover{
-    background-color: #262626;
-    border: 0.2rem solid #777;
+    background-color: var(--gris);
+    border: 2px solid rgba(71, 71, 71, 0.521);
     cursor: pointer;
 }
 #seccion_3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    background-color: rgb(74, 80, 25);
+    background-color: var(--gris);  
     gap: 10px;
     padding: 10px;
 }
 .hyr_lugar_calendario{
-    background-color: rgb(189, 120, 30);
+    background-color: rgba(109, 109, 109, 0.918)
 }
 
 .hyr_lugar_calendario:hover{
-    background-color: #262626;
-    border: 0.2rem solid #777;
+    background-color: var(--colorMarca1);
+    border: 2px solid rgba(119, 119, 119, 0.521);
     cursor: pointer;
 }
 footer{
@@ -250,7 +260,12 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: coral;
+    background-color: var(--colorMarca1);
+}
+.hyr_reserva p{
+    color: white;
+    width: 90%;
+    text-align: center;
 }
 .hyr_reserva_boton{
     margin: 10px;
