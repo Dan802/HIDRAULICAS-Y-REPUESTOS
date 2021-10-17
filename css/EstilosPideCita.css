@@ -267,8 +267,17 @@ footer{
     width: 90%;
     text-align: center;
 }
-.hyr_reserva_boton{
-    margin: 10px;
+.hyr_reserva_boton {
+    margin: 40px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: var(--colorMarca1);
+}
+.hyr_reserva_boton p{
+
+    font-size: 30px;
+    font-weight: 500;
 }
 @media(max-width:320px){
     .section-sabores{
