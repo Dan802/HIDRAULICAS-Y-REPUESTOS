@@ -119,7 +119,7 @@ header{
     display: flex;
 }
 .hyr_redes_boton{
-    width: 15%;
+    width: 65%;
     margin-top: 20px;
     margin-left: 5%;
     margin-bottom: 15px;
@@ -127,9 +127,14 @@ header{
     background-color: rgb(43, 43, 43);
     color: white;
 }
+.Img_RedesSociales{
+    height: 80px;
+    width: 80px;
+}
 .Google_maps{
-    margin-top: 20px;
-    margin-left: 5%;
+    height: 400px;
+    width: 400px;
+    margin-top: 7%;
 }
 section{
     width: 100%;
